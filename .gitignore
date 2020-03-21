@@ -4,8 +4,12 @@ lib/
 ubuntu-xenial/
 ubuntu-xenial-hwe/
 
+# Docs
+doc/doxygen/html/
+*.html.lnk
+
 # CMake
-build/
+build*/
 connectivity_check
 
 # XCode
@@ -84,3 +88,14 @@ librealsense-log.txt
 *.ini
 *.cxx
 
+.vscode/*
+
+
+RealtimeBreathing/RealtimeBreathing.vcxproj
+RealtimeBreathing/RealtimeBreathing.vcxproj.filters
+RealtimeBreathing/RealtimeBreathing.vcxproj.user
+RealtimeBreathing/Realtimebreathing.dir/
+RealtimeBreathing/.vs
+RealtimeBreathing/x64
+RealtimeBreathing/Debug
+RealtimeBreathing/Release
